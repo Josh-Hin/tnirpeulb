@@ -1,0 +1,55 @@
+site_name: The blueprint
+site_url: https://josh-hin.github.io/tnirpeuldeht # Primary URL
+
+site_name_oobe: oobe a Fujitsu company
+site_url_oobe: https://www.oobe.com.au
+site_name_o: oobe.com.au
+
+site_url_pp: https://www.oobe.com.au/about/privacy
+site_name_pp: Privacy policy
+
+site_url_c: https://www.oobe.com.au/about/contact
+site_name_c: Contact Us
+
+site_url_ms: https://www.macrosine.com.au/
+site_url_p365: https://www.perimeta.com.au/
+site_url_cs: https://www.oobe.com.au/about/contact
+
+search_placeholder: Search the blueprint
+
+theme: 
+  name: material
+  custom_dir: overrides
+  favicon: 'img/favicon.ico'
+  features:
+    - navigation.tabs # Navbar on
+    - navigation.tabs.sticky # Navbar sticky
+    - navigation.path # Breadcrumbs
+    - navigation.top # Back to Up
+    - navigation.instant # instant load to page
+    - navigation.tracking # Anchor tracking
+    - navigation.sections
+    - navigation.indexes # hide index page
+    - navigation.prune
+    - toc.follow
+    - toc.integrate # Integrate TOC into Nav
+
+markdown_extensions:
+  - toc:
+      toc_depth: 3
+  - meta 
+
+extra_css:
+  - css/extra.css
+
+plugins:
+  - search
+   
+extra_javascript:
+  - js/extra.js  
+
+# The 3 selected posts for the home page
+first_news_link: news/intro-the-blueprint-2023-04-23
+second_news_link: news/windows-11-2020-04-23
+third_news_link: news/enhanced-mfa-2023-01-16
+
